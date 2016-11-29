@@ -1,6 +1,4 @@
 *{
-	margin: 0;
-	padding: 0;
 	box-sizing: border-box;
 }
 
@@ -18,24 +16,61 @@ h1{
 p{
 	padding: 10px;
 	margin: 10px; 
-	clear: left;
+	clear: both;
+	height: 290px;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid black;
+}
+
+.alto{
+	height: 300px;
+	float: left;
 }
 
 #p1{
 	background-color: #ef7f3f;
-	float: left;
-	height: 100%;
 }
 
 #p2{
 	background-color: #f9b966;
-	float: left;
-	height: 100%;
 }
 
 #p3{
 	background-color: #a7cb68;
-	float: left;
+}
+
+#sushi{
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0.5px solid black;
+	width: 100px;
+	text-align: center;
+	background-color: white;
+}
+
+#beef{
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0.5px solid black;
+	width: 100px;
+	text-align: center;
+	background-color: white;
+}
+
+#chicken{
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0.5px solid black;
+	width: 100px;
+	text-align: center;
+	background-color: white;
 }
 
 /* Simple Responsive Framework. */
